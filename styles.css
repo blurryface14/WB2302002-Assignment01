@@ -1,0 +1,56 @@
+/*C201245, Afia Tabassum*/
+html,
+body{
+    font-size: 18px;
+    background-image: url("bg-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.submit{
+  background-color: #04AA6D;
+  border-bottom: 7px solid rgb(12, 87, 1);
+  border-width: 0px 0px 7px 0px;
+  border-radius: 3vh;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-right: 15px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.reset{
+    background-color: #ef0808;
+    border-bottom: 7px solid rgb(144, 1, 1);
+    border-width: 0px 0px 7px 0px;
+    border-radius: 3vh;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+fieldset{
+    background-color: rgba(189, 43, 226, 0.1);
+    border-radius: 3vh;
+    border: 2px rgb(255, 78, 107) solid;
+    width: 450px;
+    height:auto;
+}
+
+hr{
+    border: 0.5px rgb(255, 78, 107) dashed;
+    width: 250px;
+}
+
+legend{
+    font-weight: bold;
+}
+
+textarea{
+    border: 2px rgb(255, 78, 107) solid;
+    border-radius: 3vh;
+    padding: 10px;
+}

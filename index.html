@@ -1,0 +1,95 @@
+<!--C201245-Afia Tabassum-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Book & Café Registration</title>
+</head>
+<body bgcolor="#FF9AA2">
+
+    
+
+    <h1 align="center"><u>Book & Café Registration Form</u></h1>
+    <center>
+
+
+        <small><b><a href="index2.html" target="_blank">Click Here for more</a></b></small>
+        <br/>
+        <img src="cream.png" alt="" width="180px" height="180px">
+
+
+    <form name="xyz" action="html_form_action.asp" method="get">
+        <fieldset><legend>Personal Information</legend>
+        <br/>
+
+
+        <u><b><label for="fs">First Name:</label></b></u><br/>
+        <input type="text" autofocus id="fs" placeholder="Enter your First Name" required/>
+        <hr/>
+        <u><b><label for="ls">Last Name:</label></b></u><br/>
+        <input type="text" autofocus id="ls" placeholder="Enter your Last Name" required/>
+        <hr/>
+        <u><b><label for="p">Password:</label></b></u><br/><input type="password" autofocus id="p" placeholder="Enter your Password" required/>
+        <hr/>
+        <u><b><label for="e">Email:</label></b></u><br/><input type="email" autofocus id="e" placeholder="example@gmail.com" required/>
+        <hr/>
+        <u><b><label for="cc">Contact:</label></b></u><br/>
+        <input type="text" autofocus id="cc" placeholder="Enter your contact number" required/>
+        <hr/>
+        <u><b>Gender:</b></u>
+        <br/>
+        <label for="m"></label><input type="radio" name="sx" value="Male"/> Male
+        <label for="f"></label><input type="radio" name="sx" value="Female"/>Female
+        <label for="f"></label><input type="radio" name="sx" value="Female"/>Other 
+        <br/><hr/>
+        
+        <u><b>Religion:</b></u>
+        <br/>
+        <input type="checkbox" name="cb" value="1"/> Islam
+        <input type="checkbox" name="cb" value="2"/> Hindu
+        <input type="checkbox" name="cb" value="3"/> Buddhist
+        <input type="checkbox" name="cb" value="3"/> Christian
+        <br/><br/>
+        </fieldset>
+        <br/><br/>
+
+
+
+        <u><b>Department:</b></u><br/>
+        <select>
+            <optgroup label="Engineering">
+                <option>CSE</option>
+                <option>EEE</option>
+                <option>CCE</option>
+            </optgroup>
+            <optgroup label="Health">
+                <option>Pharmacy</option>
+                <option>Bioscience</option>
+            </optgroup>
+            <optgroup label="Art">
+                <option>Multimedia</option>
+                <option>Music</option>
+            </optgroup>
+            
+        </select>
+        <br/><br/>
+
+        
+
+        <u><b>Comment:</b></u>
+        <br/>
+        <textarea rows="15" cols="65">Type here.</textarea>
+        <br/>
+
+        <br/>
+        <input type="submit" class="submit" value="Submit"/>
+        <input type="reset" class="reset" value="Reset"/>
+        <br/>
+        <br/>
+    </form>
+    </center>
+</body>
+</html>
